@@ -1,0 +1,100 @@
+/************************************
+GENERAL ELEMENTS OF THE PAGE
+************************************/
+.main-container {
+  margin: 0 auto;
+}
+header {
+  background-color: black;
+  border:1px solid black;
+  height: 3em;
+}
+
+.container {
+  width:100%;
+  height: auto;
+  min-height:590px;
+  /*background-image: url('../images/bg.jpg');*/
+  background-size: cover;
+}
+
+.navi {
+  background-color: transparent;
+  border:0;
+  text-align:right;
+  clear:both;
+}
+.navi-span {
+  background-color:rgba(0,0,0,.2);
+}
+.navi ul li {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline;
+  padding-left:3em;
+
+}
+.navi ul li a {
+  color:white;
+  font-size:1.3em;
+}
+
+.navi ul li a:hover {
+color:black;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+
+.jumbotron >h1 {
+  font-family: Candara;
+  font-weight: 800;
+}
+
+.btn {
+  margin-top: 2em;
+  outline: 0;
+}
+
+.image-square {
+  width: 80%;
+  height: 15em;
+  text-align: center;
+}
+
+.image-square-about {
+  width:18em;
+  height: 18em;
+  border-radius:100%;
+}
+
+.my-portfolio {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.info {
+  width:100%;
+  border:1px solid black;
+  height: auto;
+  margin:o auto;
+  text-align: center;
+}
+.mid {
+ 
+  width:100%;
+ /* border:1px solid black;*/
+  margin :1em auto; 
+}
+
+.more {
+  text-align: center;
+}
+
+footer {
+  padding-top:2em;
+text-align:center;
+}
