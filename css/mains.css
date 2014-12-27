@@ -18,6 +18,10 @@ header {
   background-size: cover;
 }
 
+.blue {
+  color:blue;
+}
+
 .navi {
   background-color: transparent;
   border:0;
@@ -36,6 +40,11 @@ header {
 }
 .navi ul li a {
   color:white;
+  font-size:1.3em;
+}
+
+.navi ul li a:active {
+  color:blue;
   font-size:1.3em;
 }
 
@@ -73,8 +82,8 @@ color:black;
 .my-portfolio {
   margin: 0 auto;
   text-align: center;
+  padding-bottom: 2em;
 }
-
 
 .info {
   width:100%;
@@ -96,5 +105,20 @@ color:black;
 
 footer {
   padding-top:2em;
-text-align:center;
+  text-align:center;
+}
+
+.displayProjects {
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+
+}
+
+.displayProjects li:nth-child(7n) {
+  clear:left;
+}
+
+.selected{
+  color:blue !important;
 }

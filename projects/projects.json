@@ -1,0 +1,73 @@
+[
+{
+  "age":0,
+  "name":"googleCLone ",  "Description": "This project is aimed at cloning the most common search engine application in the world: Google. This application was built using only HTML and CSS",
+  "imageUrl": "images/projects/googleclone.png",
+  "id": "GoogleClone"
+},
+
+{
+  "age":1,
+  "name":"Job Seeker Clone",
+  "Description": "Using only CSS and HTML. This project explores the wonders of CSS and Media Queries. built to adjust itself based on the device being used.",
+  "imageUrl": "images/projects/jobseeker.png",
+  "id": "JobSeekerClone"
+},
+
+{
+  "age":2,
+  "name":"HOT OR COLD",
+  "Description": "My first touch to the Beauty of JavaScript. This simple Game application searches for the Pirates Secret Number. Why Not Jump in and play The game?",
+  "imageUrl": "images/projects/hotorcold.png",
+  "id": "HotOrCold"
+},
+
+{
+  "age":3,
+  "name":"Shopping List",
+  "Description": "A simple Shopping List Application. Currently in its Beta Version...",
+  "imageUrl": "images/projects/shopping.png",
+  "id": "shoppingList"
+},
+
+{
+  "age":4,
+  "name":"GitHub API",
+  "Description": "Searching for A user on Github has neva been this easy! with only the username you can fetch any user on Git. Built on the GitHub's Developer's API, This application shows how api can be used in other application.",
+  "imageUrl": "images/projects/github.png",
+  "id": "GitHubApi"
+},
+
+{
+  "age":5,
+  "name":"Weather API",
+  "Description":" Thinking of the current weather situation in any part of the world? This weatherApi is the answer.",
+  "imageUrl": "images/projects/weather.png",
+  "id": "weatherApi"
+},
+
+{
+  "age":6,
+  "name":"WeatherApi Refactored",
+  "Description":" The Original Version of the Weather Api has just been refactored using The new technology ANGULAR!!!!",
+  "imageUrl": "images/projects/weather.png",
+  "id": "weatherApi-Angular"
+},
+
+{
+  "age":7,
+  "name":"GitHub Refactored Angular",
+  "Description":" Another Refactoring Using Angular",
+  "imageUrl": "images/projects/github.png",
+  "id": "GitHubAngular"
+},
+
+{
+  "age":8,
+  "name":"JobSeeKer Refactored",
+  "Description":"Our Job Seeker Application Just got Refactored Using the RouteProvider in Angular!",
+  "imageUrl": "images/projects/jobseeker.png",
+  "id": "JobSeeker"
+}
+
+]
