@@ -9,9 +9,23 @@
       </ul>
 </nav>
 
-        <div id="top_wrapper">
-            <div id="logo"><img src="images/logo_360.png" /></div>
-            <p>ABOUT PAGE</p>
+      <section class="row myDetailsCanvas">
+        <ul class="displayProjects">
+          <li ng-repeat = "project in projects" class="list-canvas">
+            <div>
+            <p  class="col-sm-4">
+            <img ng-src ="{{project.imageUrl}}" class="image-square "> 
+            </p>     
+            <blockquote class="col-sm-7">
+              <a href="#/portfolio/{{project.id}}">
+                <p ng-bind="project.name | uppercase" class="blue"></p> </a>
+                <p ng-cloak>{{project.Description}}</p>
+              
+            </blockquote>
+            </div>
+          </li>
+        </ul>
+      </section>
     </main>
    <!--  <footer ng-include="'links.html'">
             

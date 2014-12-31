@@ -17,10 +17,10 @@
 
     </div>
     
-  </div> <!-- ng-repeat -->
-  <div class="row mid">
+  </div> 
+  <div class="row mid" >
     <ul class="displayProjects">
-      <li ng-repeat = "project in projects" class=>
+      <li ng-repeat = "project in projects |limitTo : 3| orderBy: order">
         <div class="col-sm-4 my-portfolio">
         <a href="#/portfolio/{{project.id}}">
           <p ng-bind="project.name | uppercase" class="blue"></p>
@@ -29,21 +29,15 @@
         </div>
       </li>
     </ul>
+    <div class="more"><a href="#/portfolio"><button class="btn btn-success btn-lg">SEE MORE</button></a></div>
   </div> 
-  <div class="more"><a href="#/portfolio"><button class="btn btn-success btn-lg">SEE MORE</button></a></div>
-  <div class="info">
-      
-        <h3>ABOUT ME</h3>
-        <img  class ="image-square-about"src="images/bayo.jpg">
-        <p> Hi, My name is Maborukoje Adebayo, Im a sotware developer at Andela Institute and have a great love for soccer</p>
-        <!-- <ul class="list-inline">
-                            <li><a href="#"> nnjjhjh<i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#">nmnmn<i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul> -->
+  
+  
+  <div class="info"> 
+    <h3>ABOUT ME</h3>
+    <img  class ="image-square-about"src="images/bayo.jpg">
+    <p> Hi, My name is Maborukoje Adebayo, Im a sotware developer at Andela Institute and have a great love for soccer... </p>
+
    </div>
 </main>
 
