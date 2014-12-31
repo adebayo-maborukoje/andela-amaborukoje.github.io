@@ -26,6 +26,12 @@ header {
   color:blue;
 }
 
+.logo {
+  color:red;
+  font-family: candara , Sans-serif;
+  box-shadow: white;
+}
+
 .navi {
   background-color: transparent;
   border:0;
